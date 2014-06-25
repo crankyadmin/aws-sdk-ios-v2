@@ -275,7 +275,7 @@
 		CE55F39218DB806000F8C75F /* AZURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AZURLSessionManager.m; path = AmazonCore/Networking/AZURLSessionManager.m; sourceTree = SOURCE_ROOT; };
 		CE55F39418DB806000F8C75F /* AZSynchronizedMutableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AZSynchronizedMutableDictionary.h; path = AmazonCore/Utility/AZSynchronizedMutableDictionary.h; sourceTree = SOURCE_ROOT; };
 		CE55F39518DB806000F8C75F /* AZSynchronizedMutableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AZSynchronizedMutableDictionary.m; path = AmazonCore/Utility/AZSynchronizedMutableDictionary.m; sourceTree = SOURCE_ROOT; };
-		CE571E2D1937D1F00027826E /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		CE571E2D1937D1F00027826E /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CE5D83D61857AA3100907C25 /* libAWSiOSSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAWSiOSSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5D83D91857AA3100907C25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CE5D83DD1857AA3100907C25 /* AWSiOSSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AWSiOSSDK-Prefix.pch"; sourceTree = SOURCE_ROOT; };
