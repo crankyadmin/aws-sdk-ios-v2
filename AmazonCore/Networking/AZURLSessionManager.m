@@ -192,7 +192,7 @@ typedef NS_ENUM(NSInteger, AZURLSessionTaskType) {
             if (delegate.request.task) {
                 [self.sessionManagerDelegates setObject:delegate
                                                  forKey:@(((NSURLSessionTask *)delegate.request.task).taskIdentifier)];
-                [delegate.request.task resume];
+                [(NSURLSessionTask *)delegate.request.task resume];
             } else {
                 // TODO: This should never happen. Assert instead of error?
                 error = [NSError errorWithDomain:AZNetworkingErrorDomain

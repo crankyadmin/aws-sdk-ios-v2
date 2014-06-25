@@ -14,7 +14,7 @@
  */
 
 #import "AWSNetworking.h"
-#import <UIKit/UIKit.h>
+#import <AppKit/AppKit.h>
 #import "AZCategory.h"
 #import "AZModel.h"
 
@@ -82,8 +82,8 @@
     static NSString *_userAgent = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        NSString *systemName = [[[UIDevice currentDevice] systemName] stringByReplacingOccurrencesOfString:@" " withString:@"-"];
-        NSString *systemVersion = [[UIDevice currentDevice] systemVersion];
+        NSString *systemName = @"Sysbot v0.0.1";
+        NSString *systemVersion = @"10.9";
         NSString *localeIdentifier = [[NSLocale currentLocale] localeIdentifier];
         _userAgent = [NSString stringWithFormat:@"aws-sdk-iOS/%@ %@/%@ %@", @"2.0.0", systemName, systemVersion, localeIdentifier];
     });

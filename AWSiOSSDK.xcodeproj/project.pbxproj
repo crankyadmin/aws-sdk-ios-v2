@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		959EA273F67F43CFA2ECD496 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A0CE70F1DF4EEE8E04D464 /* libPods.a */; };
+		3D10766D195AC7C600A493AB /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D10766C195AC7C600A493AB /* AppKit.framework */; };
+		3D10766F195AC7D200A493AB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D10766E195AC7D200A493AB /* libPods.a */; };
+		3D8810B6195ACA1B00EC0DC4 /* libMacBolts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8810B5195ACA1B00EC0DC4 /* libMacBolts.a */; };
 		BD19ED05188F15EB001F5B98 /* AWSS3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD19ED04188F15EB001F5B98 /* AWSS3Tests.m */; };
 		BD47982B18B2BA930028B0DB /* AWSXMLBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD47982518B2BA930028B0DB /* AWSXMLBuilderTests.m */; };
 		BD47982C18B2BA930028B0DB /* AWSXMLParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD47982618B2BA930028B0DB /* AWSXMLParserTests.m */; };
@@ -48,7 +50,6 @@
 		CE314868187B57F50068883B /* AWSCoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE314865187B57F50068883B /* AWSCoreTests.m */; };
 		CE314869187B57F50068883B /* AmazonCoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE314866187B57F50068883B /* AmazonCoreTests.m */; };
 		CE31486B187B58090068883B /* credentials.json in Resources */ = {isa = PBXBuildFile; fileRef = CE31486A187B58090068883B /* credentials.json */; };
-		CE31486D187B59220068883B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE31486C187B59220068883B /* UIKit.framework */; };
 		CE372B7318DA874000D2CFD2 /* AWSAutoScaling.m in Sources */ = {isa = PBXBuildFile; fileRef = CE372B1618DA874000D2CFD2 /* AWSAutoScaling.m */; };
 		CE372B7418DA874000D2CFD2 /* AWSAutoScalingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE372B1818DA874000D2CFD2 /* AWSAutoScalingModel.m */; };
 		CE372B7518DA874000D2CFD2 /* AWSCloudWatch.m in Sources */ = {isa = PBXBuildFile; fileRef = CE372B1D18DA874000D2CFD2 /* AWSCloudWatch.m */; };
@@ -124,6 +125,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3D10766C195AC7C600A493AB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
+		3D10766E195AC7D200A493AB /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		3D8810B5195ACA1B00EC0DC4 /* libMacBolts.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMacBolts.a; sourceTree = "<group>"; };
+		3D8810B7195ACA4000EC0DC4 /* BFAppLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFAppLink.h; sourceTree = "<group>"; };
+		3D8810B8195ACA4000EC0DC4 /* BFAppLinkNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFAppLinkNavigation.h; sourceTree = "<group>"; };
+		3D8810B9195ACA4000EC0DC4 /* BFAppLinkResolving.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFAppLinkResolving.h; sourceTree = "<group>"; };
+		3D8810BA195ACA4000EC0DC4 /* BFAppLinkReturnToRefererView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFAppLinkReturnToRefererView.h; sourceTree = "<group>"; };
+		3D8810BB195ACA4000EC0DC4 /* BFAppLinkReturnToRefererView_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFAppLinkReturnToRefererView_Internal.h; sourceTree = "<group>"; };
+		3D8810BC195ACA4000EC0DC4 /* BFAppLinkTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFAppLinkTarget.h; sourceTree = "<group>"; };
+		3D8810BD195ACA4000EC0DC4 /* BFExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFExecutor.h; sourceTree = "<group>"; };
+		3D8810BE195ACA4000EC0DC4 /* BFTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFTask.h; sourceTree = "<group>"; };
+		3D8810BF195ACA4000EC0DC4 /* BFTaskCompletionSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFTaskCompletionSource.h; sourceTree = "<group>"; };
+		3D8810C0195ACA4000EC0DC4 /* BFURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFURL.h; sourceTree = "<group>"; };
+		3D8810C1195ACA4000EC0DC4 /* BFWebViewAppLinkResolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFWebViewAppLinkResolver.h; sourceTree = "<group>"; };
+		3D8810C2195ACA4000EC0DC4 /* Bolts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bolts.h; sourceTree = "<group>"; };
+		3D8810C3195ACA4000EC0DC4 /* BoltsVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoltsVersion.h; sourceTree = "<group>"; };
 		AAF85B9700504764BCD966E3 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		BD19ED04188F15EB001F5B98 /* AWSS3Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AWSS3Tests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		BD47982518B2BA930028B0DB /* AWSXMLBuilderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSXMLBuilderTests.m; sourceTree = "<group>"; };
@@ -161,7 +178,6 @@
 		CE314865187B57F50068883B /* AWSCoreTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSCoreTests.m; sourceTree = "<group>"; };
 		CE314866187B57F50068883B /* AmazonCoreTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AmazonCoreTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		CE31486A187B58090068883B /* credentials.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = credentials.json; sourceTree = "<group>"; };
-		CE31486C187B59220068883B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CE372B1418DA874000D2CFD2 /* AutoScaling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = AutoScaling.h; path = AutoScaling/AutoScaling.h; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		CE372B1518DA874000D2CFD2 /* AWSAutoScaling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = AWSAutoScaling.h; path = AutoScaling/AWSAutoScaling.h; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		CE372B1618DA874000D2CFD2 /* AWSAutoScaling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = AWSAutoScaling.m; path = AutoScaling/AWSAutoScaling.m; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
@@ -276,7 +292,6 @@
 		CED6C36418EE3EC800A56FB2 /* AWSS3TransferManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSS3TransferManager.h; sourceTree = "<group>"; };
 		CED6C36518EE3EC800A56FB2 /* AWSS3TransferManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AWSS3TransferManager.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		EFEAC89419295311005FEDE4 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
-		F3A0CE70F1DF4EEE8E04D464 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -287,7 +302,6 @@
 				BDD39A0E193E652100C712BD /* libz.dylib in Frameworks */,
 				EFEAC897192954B2005FEDE4 /* libAWSiOSSDK.a in Frameworks */,
 				EFEAC89619295448005FEDE4 /* libsqlite3.dylib in Frameworks */,
-				CE31486D187B59220068883B /* UIKit.framework in Frameworks */,
 				CE314853187B577A0068883B /* XCTest.framework in Frameworks */,
 				CE314854187B577A0068883B /* Foundation.framework in Frameworks */,
 			);
@@ -297,8 +311,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D8810B6195ACA1B00EC0DC4 /* libMacBolts.a in Frameworks */,
+				3D10766F195AC7D200A493AB /* libPods.a in Frameworks */,
+				3D10766D195AC7C600A493AB /* AppKit.framework in Frameworks */,
 				CE5D83DA1857AA3100907C25 /* Foundation.framework in Frameworks */,
-				959EA273F67F43CFA2ECD496 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -753,16 +769,17 @@
 		CE5D83D81857AA3100907C25 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3D8810B5195ACA1B00EC0DC4 /* libMacBolts.a */,
+				3D10766E195AC7D200A493AB /* libPods.a */,
+				3D10766C195AC7C600A493AB /* AppKit.framework */,
 				BDD11E31193FA70C00AF60E1 /* SystemConfiguration.framework */,
 				BDD11E10193FA41F00AF60E1 /* libOCMock.a */,
 				BDD11E0E193FA40300AF60E1 /* OCHamcrestIOS.framework */,
 				BDD11E09193FA33E00AF60E1 /* SenTestingKit.framework */,
 				BDD39A0A193E646C00C712BD /* libz.dylib */,
 				EFEAC89419295311005FEDE4 /* libsqlite3.dylib */,
-				CE31486C187B59220068883B /* UIKit.framework */,
 				CE5D83D91857AA3100907C25 /* Foundation.framework */,
 				CE5D83E71857AA3100907C25 /* XCTest.framework */,
-				F3A0CE70F1DF4EEE8E04D464 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -770,6 +787,19 @@
 		CE5D83DC1857AA3100907C25 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3D8810B7195ACA4000EC0DC4 /* BFAppLink.h */,
+				3D8810B8195ACA4000EC0DC4 /* BFAppLinkNavigation.h */,
+				3D8810B9195ACA4000EC0DC4 /* BFAppLinkResolving.h */,
+				3D8810BA195ACA4000EC0DC4 /* BFAppLinkReturnToRefererView.h */,
+				3D8810BB195ACA4000EC0DC4 /* BFAppLinkReturnToRefererView_Internal.h */,
+				3D8810BC195ACA4000EC0DC4 /* BFAppLinkTarget.h */,
+				3D8810BD195ACA4000EC0DC4 /* BFExecutor.h */,
+				3D8810BE195ACA4000EC0DC4 /* BFTask.h */,
+				3D8810BF195ACA4000EC0DC4 /* BFTaskCompletionSource.h */,
+				3D8810C0195ACA4000EC0DC4 /* BFURL.h */,
+				3D8810C1195ACA4000EC0DC4 /* BFWebViewAppLinkResolver.h */,
+				3D8810C2195ACA4000EC0DC4 /* Bolts.h */,
+				3D8810C3195ACA4000EC0DC4 /* BoltsVersion.h */,
 				CE571E2D1937D1F00027826E /* Podfile */,
 				CE5D83DD1857AA3100907C25 /* AWSiOSSDK-Prefix.pch */,
 			);
@@ -1153,8 +1183,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AWSiOSSDK-Prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/dhouston/code/github/aws-sdk-ios-v2",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = AWSiOSSDK;
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -1167,8 +1202,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AWSiOSSDK-Prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/dhouston/code/github/aws-sdk-ios-v2",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = AWSiOSSDK;
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;

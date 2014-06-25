@@ -15,7 +15,7 @@
 
 #import "AWSCredentialsProvider.h"
 #import "STS.h"
-#import "UICKeyChainStore.h"
+//#import "UICKeyChainStore.h"
 
 @interface AWSStaticCredentialsProvider()
 
